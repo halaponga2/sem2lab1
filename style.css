@@ -11,21 +11,22 @@ img{
 
 .card-1 {
     text-align: center;
-    width:200px;
-    height: 100%;
+    max-width:200px;
+    height:100%;
     background-color: gray;
     margin: 15px;
 }
 .card-2 {
     text-align: center;
-    width:350px;
-    height: 100%;
+    max-width:350px;
+    height:100%;
     background-color: gray;
     margin: 15px;
 }
 .card-3 {
     text-align: center;
-    width:200px;
+    max-width:200px;
+    height:100%;
     background-color: gray;
     margin: 15px;
 }
@@ -54,13 +55,15 @@ img{
 }
 
 #first{
+    max-width: 600px;
     flex: 1 1;
     order: 1;
 }
 
 #second{
     order: 2;
+    
 }
 #fourth{
-    order:-1
+    order:-1;
 }
