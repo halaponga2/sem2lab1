@@ -10,25 +10,45 @@ h2{
 img{
     width: 100%;
 }
-
-.card-1 {
+.card-1{
     text-align: center;
-    max-width:200px;
+    flex-basis:200px;
     height:100%;
     background-color: gray;
     margin: 15px;
 }
-.card-2 {
+.card-2{
+    text-align: center;
+    flex-basis:350px;
+    height: 100%;
+    background-color: gray;
+    margin: 15px;
+}
+.card-3{
+    text-align: center;
+    flex-basis:200px;
+    height:100%;
+    background-color: gray;
+    margin: 15px;
+}
+.container-2__card-1 {
+    text-align: center;
+    max-width:200px;
+    flex-basis:100%;
+    background-color: gray;
+    margin: 15px;
+}
+.container-2__card-2 {
     text-align: center;
     max-width:350px;
-    height:100%;
+    flex-basis: 100%;
     background-color: gray;
     margin: 15px;
 }
-.card-3 {
+.container-2__card-3 {
     text-align: center;
     max-width:200px;
-    height:100%;
+    flex-basis:100%;
     background-color: gray;
     margin: 15px;
 }
@@ -63,9 +83,17 @@ img{
 }
 
 #second{
-    order: 2;
+    order: 2;   
     
 }
 #fourth{
     order:-1;
+}
+
+.container-4{
+    display: flex;
+    flex-flow: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    min-height: 1500px;
 }
